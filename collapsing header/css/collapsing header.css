@@ -1,0 +1,36 @@
+ *{
+	margin:0; padding:0; border:0;
+}
+
+body{
+	text-align:center;
+}
+
+header{
+	height:100px;
+	background:#dbdbdb;
+	/*can add image here*/
+	width:100%;
+	z-index:10;
+	position:fixed;
+}
+
+#banner{
+	background-image: url(anonymous1.png);
+	
+	/*size:cover;*/
+	width:100%;
+	height:500px;
+	position:fixed;
+	top:100px;
+	/*background:#707070;*/
+}
+
+#content{
+	width:100%;
+	position:relative;
+	background:#cdcdcd;
+	top:400px;
+	height:1500px;
+	
+}

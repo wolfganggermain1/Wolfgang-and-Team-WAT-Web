@@ -1,0 +1,1 @@
+Quick text bubble slider. Can be easily implemented andcan also change from being text content to image content.

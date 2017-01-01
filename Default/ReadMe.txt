@@ -1,0 +1,1 @@
+Default template Used to create the web repo.

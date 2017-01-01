@@ -1,0 +1,105 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/calendar_item.css" />
+	<script type="text/javascript" src="js/trigger.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Default page</title>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+
+	<link rel="stylesheet" href="css/accodion.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+
+
+	<script>
+		$( function() {
+			$( "#accordion" )
+					.accordion({
+						header: "> div > div"
+					})
+					.sortable({
+						axis: "y",
+						handle: "h3",
+						stop: function( event, ui ) {
+							// IE doesn't register the blur when sorting
+							// so trigger focusout handlers to remove .ui-state-focus
+							ui.item.children( "h3" ).triggerHandler( "focusout" );
+
+							// Refresh accordion to handle new order
+							$( this ).accordion( "refresh" );
+						}
+					});
+		} );
+	</script>
+
+</head>
+<body>
+<center>
+	
+
+	<div id="accordion" style="width: 600px;">
+		<div class="group">
+			<div class="items">
+				<p class="title">2. Booking - 01/05/2017</p>
+				<div class="controls">
+
+					<button ><i class="fa fa-check"></i> Confirm</button>
+					<button><i class="fa fa-close"></i> Cancel</button>
+
+					<div class="separator"></div>
+
+					<button><i class="fa fa-edit "></i> Edit</button>
+					<button><i class="fa fa-trash "></i> Delete</button>
+				</div>
+			</div>
+			<div class="calendar-input clear">
+				<h3>Edit event on your calendar</h3>
+				<form action="add_to_calendar.php" method="POST">
+					<p>Title: <input type="text" name="title" id="title" required/></p>
+					<p>Desc: <textarea required name="desc" cols="20" rows="5" placeholder="Even decription here." id="desc" > </textarea><!--input col="10" type="text" --></p>
+
+					<p>Date: <input type="text" name="datepicker" id="datepicker" required></p>
+
+					<input type="submit" value="Add Event"/>
+				</form>
+			</div>
+		</div>
+
+		<div class="group">
+			<div class="items">
+				<p class="title">2. Booking - 01/05/2017</p>
+				<div class="controls">
+
+					<button ><i class="fa fa-check"></i> Confirm</button>
+					<button><i class="fa fa-close"></i> Cancel</button>
+
+					<div class="separator"></div>
+
+					<button><i class="fa fa-edit "></i> Edit</button>
+					<button><i class="fa fa-trash "></i> Delete</button>
+				</div>
+			</div>
+			<div class="calendar-input">
+				<h3>Edit event on your calendar</h3>
+				<form action="add_to_calendar.php" method="POST">
+					<p>Title: <input type="text" name="title" id="title" required/></p>
+					<p>Desc: <textarea required name="desc" cols="20" rows="5" placeholder="Even decription here." id="desc" > </textarea><!--input col="10" type="text" --></p>
+
+					<p>Date: <input type="text" name="datepicker" id="datepicker" required></p>
+
+					<input type="submit" value="Add Event"/>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+</center>
+
+
+</body>
+</html>

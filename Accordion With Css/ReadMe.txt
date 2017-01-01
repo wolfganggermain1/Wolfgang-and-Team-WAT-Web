@@ -1,0 +1,1 @@
+Raw accordion effect without styling. This uses min-height to achieve the required effect.

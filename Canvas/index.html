@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css" />
+	<script language="javascript" type="application/javascript">
+	window.onload = draw;
+
+function draw(){
+	//assign our canvas element to a variable
+	var canvas = document.getElementById("canvas1");
+	//Create html5 element to a variable
+	var ctx = canvas.getContext("2d");
+	ctx.beginPath();
+	ctx.moveTo(100,50);
+	ctx.moveTo(130,100);
+	ctx.moveTo(70, 100);
+	ctx.fillStyle="#FF0000";
+	ctx.fill();
+
+}
+	
+function draw(x,y){
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+		ctx.save();
+		ctx.clearRect(0,0,550,400);
+		ctx.fillStyle = "rgba(0,200,0,1)";
+		ctx.fillRect(x, 20,50,50);
+		ctx.restore();
+		x += 5;
+		var loopTimer = setTimeout('draw('+x+','+y+')');
+	
+}
+	
+	</script>
+
+</head>
+<body>
+<canvas id="canvas1" width="400" height="300" style="background-color:#0f0;"></canvas>
+<button onclick="draw(0,0);draw();" >Draw</button>
+<canvas id="canvas" width="550" height="300" style="border:red 1px dotted;"></canvas>
+
+</body>
+</html>

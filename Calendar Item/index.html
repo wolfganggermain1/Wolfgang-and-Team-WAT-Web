@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/calendar_item.css" />
+	<script type="text/javascript" src="js/trigger.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Default page</title>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+
+	<link rel="stylesheet" href="css/accodion.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+
+</head>
+<body>
+<center>
+	<div class="items">
+		<p class="title">1. Booking - 01/05/2017</p>
+		<div class="controls">
+
+				<button ><i class="fa fa-check"></i> Confirm</button>
+				<button><i class="fa fa-close"></i> Cancel</button>
+
+			<div class="separator"></div>
+
+			<button><i class="fa fa-edit "></i> Edit</button>
+			<button><i class="fa fa-trash "></i> Delete</button>
+		</div>
+	</div>
+	<div class="item-wrapper">
+	<div class="items">
+		<p class="title">2. Booking - 01/05/2017</p>
+		<div class="controls">
+
+			<button ><i class="fa fa-check"></i> Confirm</button>
+			<button><i class="fa fa-close"></i> Cancel</button>
+
+			<div class="separator"></div>
+
+			<button><i class="fa fa-edit "></i> Edit</button>
+			<button><i class="fa fa-trash "></i> Delete</button>
+		</div>
+		<div class="calendar-input clear">
+			<h3>Edit event on your calendar</h3>
+			<form action="add_to_calendar.php" method="POST">
+				<p>Title: <input type="text" name="title" id="title" required/></p>
+				<p>Desc: <textarea required name="desc" cols="32" rows="5" placeholder="Even decription here." id="desc" > </textarea><!--input col="10" type="text" --></p>
+
+				<p>Date: <input type="text" name="datepicker" id="datepicker" required></p>
+
+				<input type="submit" value="Add Event"/>
+		</form>
+		</div>
+	</div>
+	</div>
+
+	<div class="items clear">
+		<p class="title">1. Booking - 01/05/2017</p>
+		<div class="controls">
+
+			<button ><i class="fa fa-check"></i> Confirm</button>
+			<button><i class="fa fa-close"></i> Cancel</button>
+
+			<div class="separator"></div>
+
+			<button><i class="fa fa-edit "></i> Edit</button>
+			<button><i class="fa fa-trash "></i> Delete</button>
+		</div>
+	</div>
+
+	
+
+
+</center>
+
+
+</body>
+</html>
