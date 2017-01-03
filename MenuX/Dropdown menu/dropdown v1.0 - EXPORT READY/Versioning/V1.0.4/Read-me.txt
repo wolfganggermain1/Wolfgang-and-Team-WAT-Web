@@ -1,0 +1,15 @@
+Back skeleton of the menu
+can have hover effect and visited change aswel
+
+Added the sub menu to the social tab, but it is still horizontal, not yet deplaying verticel. the bars are also unevenly distributed.
+
+			-------------------------------------------------
+
+			 | Home   |  Service  | Contact Us  |  Social   |
+
+			-------------------------------------------------	
+							    |           |
+							    |  YouTube  | 
+ 							    |-----------|
+							    |  Facebook |
+ 							    |-----------|

@@ -1,0 +1,151 @@
+
+
+.main_section{
+	padding:4px;
+	margin: -20px auto; 
+	
+}
+
+#top_articel{
+	
+	
+}
+
+#top_article img{
+	float: left;
+	width: 230px;
+	/*background:#ccc;		*/
+}
+
+#top_article p{
+	height:78px;
+	padding:30px;
+	float: right;
+	width:410px;
+	background:#1cc;
+}
+
+#bottom_article{
+	position:relative;
+	top:-75px;
+	
+	margin-top:-300px;
+	height:300px;
+	margin: 310px auto;
+}
+
+#bottom_article img{
+	float: right;
+	width: 230px;
+	
+	background:#cc3;
+}
+
+#bottom_article p{
+	height:78px;
+	padding:30px;
+	float: left;
+	width:410px;
+	background:#1cc;
+}
+
+#drop_menu{
+	/*This is a placeholder till I find out if this is the correct method*/
+	margin:-20 auto;
+	float:right;
+}
+
+#vehicle_para{
+	margin:40px auto;
+}
+
+#vehicle_para img{
+	margin:10px auto;
+}
+
+#vehicle_img1{
+	display:block;
+	width: 25px;
+	margin:5px auto;
+}
+
+/*
+@media only screen and (max-width: 500px)
+.main_section{
+	padding:4px;
+	margin: -20px auto; 
+	
+}
+
+#top_articel{
+	
+	
+}
+
+#top_article img{
+	float: left;
+	width: 230px;
+	background:#ccc;		
+}
+
+#top_article p{
+	height:78px;
+	padding:30px;
+	float: right;
+	width:410px;
+	background:#1cc;
+}
+
+#bottom_article{
+	position:relative;
+	top:-75px;
+	
+	margin-top:-300px;
+	height:300px;
+	margin: 310px auto;
+}
+
+#bottom_article img{
+	float: right;
+	width: 230px;
+	
+	background:#cc3;
+}
+
+#bottom_article p{
+	height:78px;
+	padding:30px;
+	float: left;
+	width:410px;
+	background:#1cc;
+}
+
+#drop_menu{
+	/*This is a placeholder till I find out if this is the correct method*//*
+	margin:-20 auto;
+	float:right;
+}
+
+#vehicle_pic{
+	display:block;
+	margin: 0 auto;
+	width:360px;
+	
+}
+
+#vehicle_para{
+	margin:40px auto;
+}
+
+#vehicle_para img{
+	margin:10px auto;
+}
+
+#vehicle_img1{
+	display:block;
+	width: 25px;
+	margin:5px auto;
+}
+
+
+*/

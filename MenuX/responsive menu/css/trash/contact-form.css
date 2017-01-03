@@ -1,0 +1,44 @@
+#contact{
+	/*margin-top:50px;*/
+	/*background-color:#ee5;*/
+	height:600px;
+	width:300px;
+	margin:0 auto;
+	float:left;
+	
+	padding-top:10px;
+
+}
+
+#contact input{
+	width:100%;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid #e4af48;
+}
+
+
+#contact input:first-child{
+	width:100%;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-top:0px;
+	margin-bottom:5px;
+	border:1px solid #e4af48;
+}
+
+
+#contact textarea{
+	width:100%;
+	height:205px;
+	margin-bottom:16px;
+	border:1px solid #e4af48;
+
+}
+
+
+#contact input[submit]{
+	
+}

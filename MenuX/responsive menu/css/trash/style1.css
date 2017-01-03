@@ -1,0 +1,46 @@
+*{margin:0; padding:0;}
+
+@font-face{
+	font-family:heading;
+	src: url("body test.ttf");
+
+}
+
+
+#body-wrapper{
+	/*background:#ccc;
+	/*height: 1000px;*/
+	width:720px;
+	margin:60px auto;
+	font-size:12px;
+	z-index:2;
+	font-family:heading;
+	font-weight:bold;	
+
+	/*overflow: auto;*/
+	
+	
+	
+	}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+@media only screen and (max-width: 500px){
+	#body-wrapper{
+		width:350px;
+		
+	}
+
+}
+
+
+	
+
+
+
+

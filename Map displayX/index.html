@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/map.css" />
+	<script type="text/javascript" src="js/trigger.js"></script>
+	<title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+		width:600px;  
+        height: 600px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        /*height: 100%;*/
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+
+</head>
+<body>
+
+	
+	<div id="map_container">
+		
+		<img src="img/praslin_map.png" alt="map of praslin island" />
+	
+	</div>
+	
+	<div id="map"></div>
+    <script>		
+		function initMap() {
+        var myLatLng = {lat: -4.325739, lng: 55.760025};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+			
+		var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+        var icons = {
+          parking: {
+            icon: iconBase + 'parking_lot_maps.png'
+          },
+          library: {
+            icon: iconBase + 'library_maps.png'
+          },
+          info: {
+            icon: iconBase + 'info-i_maps.png'
+          }
+        };
+	
+			
+			
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_XvAU0aTQrEJrDHqL3JR2YkDIPwSTils&callback=initMap"
+    async defer></script>
+
+
+
+
+</body>
+</html>

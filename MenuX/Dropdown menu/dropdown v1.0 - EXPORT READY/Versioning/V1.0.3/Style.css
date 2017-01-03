@@ -1,0 +1,71 @@
+body {
+	padding:0;
+	margin:0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size:18px;
+}
+
+#nav{
+	
+	background-color:#222;/*color of base background*/
+}
+
+#nav_wrapper{
+	width:960px;
+	margin:0 auto;   /*alignment set here*/
+	text-align: left;
+
+}
+
+#nav ul{
+	
+	
+	list-style:none;/*Removing styling from list*/
+	padding:0;
+	margin :0; /*end below*/
+	position:relative;
+	
+	
+	
+	
+	
+}
+
+#nav ul li{
+	display:inline-block; /*display like menu*/
+	
+}
+
+#nav ul li:hover{
+	background-color:#333;
+	
+}
+
+
+#nav ul li a,visited{
+	#ccc; /* hovering effect achieeved from here*/
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	
+}
+
+#nav ul li a:hover{
+	color:#ccc;
+	text-decoration:none;
+	
+}
+
+#nav ul li:hover ul{
+	/*tell the browseer to treat the ul of the ul as block elements**/
+	display:block;
+	
+} 
+
+#nav ul ul{
+	/*Pushes the element  to form sub menus below, but it is not display vertically, instead it is horizontal**/
+	display:none;
+	position:absolute;
+	
+}

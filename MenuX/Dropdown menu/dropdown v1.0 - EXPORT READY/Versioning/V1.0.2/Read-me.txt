@@ -1,0 +1,8 @@
+Back skeleton of the menu
+can have hover effect and visited change aswel
+
+			-----------------------------------------------
+
+			 | Home   |  Service  | Contact Us  |  Social
+
+			-----------------------------------------------

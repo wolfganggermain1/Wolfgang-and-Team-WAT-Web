@@ -1,0 +1,42 @@
+#main-container{
+	position:absolute;
+	width:700px;
+	height:720px;
+	/*background-color:#ccc;*/
+	left:25%;
+	right:25%;
+	margin:0 auto;
+	z-index:0;
+}
+
+
+#main{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:#ccc;
+	opacity:1;
+	z-index:4;
+}
+#book{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:#ccc;
+	opacity:0;
+	top:-720px;
+	z-index:2;
+
+}
+
+#contact-us{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:rgba(90,90,90, 0.7);
+	opacity:0;
+	top:-1440px;
+	z-index:3;
+	
+
+}

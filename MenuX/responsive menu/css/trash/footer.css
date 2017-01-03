@@ -1,0 +1,90 @@
+
+/*------------------------------------------------------------*/
+
+footer {
+	width:100%;
+	
+	/*background: -webkit-radial-gradient(#FFB989,#F06609);
+	background: -moz-radial-gradient(#FFB989,#F06609);
+	background: -ms--radial-gradient(#FFB989,#F06609);
+	background: -o-radial-gradient(#FFB989,#F06609);
+	background: -radial-gradient(#FFB989,#F06609);
+	box-shadow:inset 0 1px rgba(255,255,255, 0.3), inset 0 50px 30px rgba(255,255,255, 0.2), inset 0 30px 60px rgba(255,255,255, 0.25),inset 0 -30px 30px rgba(255, 185, 137, 0.3);*/
+	clear:both;
+	margin-bottom:-10px;	
+	/*color:#fff;*/
+	background-color:#F06609; /*#444
+	opacity:0.9;
+	/*height:110px;*/
+	}
+#footer-wrapper{
+	padding:10px;
+	height:140px;
+	width:720px;
+	margin:0 auto;
+}
+
+
+footer ul{
+	
+	width:100px;
+	
+}
+
+footer h5{
+	margin: 5px auto;
+}
+
+footer li{
+	display: inline-block;
+	list-style:none;
+	padding: 2px;
+	
+	/*font-family:Arial;*/
+	width: 100%;
+}
+
+footer a{text-decoration:none;}
+
+
+#home{
+	float:left;
+}
+
+#about-us2{
+	float:left;
+
+}
+
+
+#opensource{
+	float:left;
+	/*color:#fff;*/
+}
+
+
+#opensource a, #about-us a, #home a{
+	
+	/*color:#fff;*/
+}
+
+#WAT{
+	width:250px;
+	float:right;
+
+
+
+}
+
+
+
+#WAT{
+	text-align: center;
+	margin: 7px auto;
+}
+
+#WAT img{
+	padding:2px;
+}
+
+

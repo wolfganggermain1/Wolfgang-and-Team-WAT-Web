@@ -1,0 +1,577 @@
+
+
+table{
+	width:720px;
+	margin:0 auto;
+/*	background-color:#e8e8e8;*/
+
+}
+
+form#bookingform{
+
+	letter-spacing:1.2px;
+	width:600px;
+	margin:0 auto;
+	color:blue;/*main colour change here*/
+
+	/*text-align:center;*/
+	font-size:14px;
+}
+
+form#bookingform input{
+	/*border-radius:2px;*/
+}
+
+
+form#bookingform select{
+	border:1px solid #e4af48;
+	padding:2.5px;
+
+}
+
+.name{
+	
+	
+		/*background-color:#ccc;*/
+}
+th p{
+	padding:10px;
+	text-align:center;
+	color:#d0941f;
+	font-size:16px;
+	text-decoration:underline;
+	font-weight:bold;
+
+}
+
+
+
+.input-wrapper{
+	/*margin-left:10px;
+	margin-top:10px;*/
+	background-color:#2B1673;
+	/*width:530px;*/
+
+}
+
+.input-wrapper input{
+	width:235px;
+	padding:5px;
+	border:1px solid #e4af48;
+
+}
+
+.name p{
+	float:left;
+}
+
+
+
+#fname-wrapper{
+	background-color:#2B1673;
+	float:left;
+	/*margin-left:20px;*/
+}
+
+
+#fname-wrapper p{
+	
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:-240px;
+	/*margin-right:120px;*/
+	margin-top:35px;
+	/*color:#3cc;*/
+	font-size:10px;
+	color:#fff;
+
+}
+
+
+#fname-wrapper input{
+	float:left;
+
+}
+
+
+
+#lname-wrapper{
+	background-color:#2B1673;
+	float:left;
+}
+
+
+#lname-wrapper p{
+	
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:-240px;
+	/*margin-right:120px;*/
+	margin-top:35px;
+	/*color:#3cc;*/
+	font-size:10px;
+	color:#fff;
+
+}
+
+
+#lname-wrapper input{
+	float:left;
+
+}
+
+
+#fnamein:focus ~ p#fname{
+	color:#d0941f;/*Mini text-changing here*/
+}
+
+#lnamein:focus ~ p#lname{
+	color:#d0941f;/*Mini text-changing here*/
+}
+
+#bookingemail:focus ~ p#email{
+	color:#d0941f;
+}
+
+#licensenumber:focus ~ p#license{
+	color:#d0941f;
+}
+
+#fnamein:focus ~ p#location-out{
+	color:#d0941f;/*Mini text-changing here*/
+}
+
+#fnamein:focus ~ p#location-in{
+	color:#d0941f;/*Mini text-changing here*/
+}
+
+#datepicker-out:focus ~ p#dateout{
+	color:#d0941f;/*Mini text-changing here*/
+}
+
+#datepicker-in:focus ~ p#datein{
+	color:#d0941f;/*Mini text-changing here*/
+}
+
+
+.email{
+	background-color:#2B1673;
+	clear:both;
+	/*margin-top:100px;*/
+	
+
+}
+
+/*.email input{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:477px;
+
+}*/
+
+
+
+
+#email-wrapper{
+	background-color:#2B1673;
+	float:left;
+	width: 494px;
+	/*margin-left:22px;
+	margin-top:20px;*/
+}
+
+
+#email-wrapper p{
+	
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:10px;
+	/*margin-right:120px;*/
+	margin-top:0px;
+	/*color:#3cc;*/
+	font-size:10px;
+	color:#fff;
+
+}
+
+
+#email-wrapper input{
+	width: 482px;
+	padding:5px;
+	float:left;
+	border:1px solid #e4af48;
+}
+
+.email p{
+	margin-top:35px;
+	float:left;
+}
+
+#email-wrapper p{
+	float:left;
+	margin-left:10px;
+	/*margin-right:120px;*/
+	margin-top:5px;
+	font-size:10px;
+
+}
+
+#license{
+	width:477px;
+	/*margin-left:-10px;*/
+
+}
+
+
+.license{
+	clear:both;
+
+}
+
+.license p{
+	margin-top:35px;
+	float:left;
+}
+
+
+#license-wrapper{
+	background-color:#2B1673;
+	float:left;
+	width: 494px;
+	/*margin-left:11px;
+	margin-top:20px;*/
+}
+
+
+#license-wrapper p{
+	
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:10px;
+	/*margin-right:120px;*/
+	margin-top:5px;
+	/*color:#3cc;*/
+	font-size:10px;
+	color:#fff;
+
+}
+
+
+#license-wrapper input{
+	width: 482px;
+	padding:5px;
+	float:left;
+	margin-left:0px;
+	border:1px solid #e4af48;
+}
+
+
+
+
+
+/*
+.email p{
+	float:left;
+	/*background-color:#cc1;
+	margin-left:75px;
+	margin-right:120px;
+	margin-top:-10px;
+	/*color:#3cc;
+	font-size:10px;
+}
+
+.email p:first-child{
+	font-size:14px;
+	margin:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	/*float:none;
+
+}*/
+
+
+
+
+.details{
+	background-color:#c3c;
+	clear:both;
+	margin-top:10px;
+	/*padding:10px;*/
+}
+
+.details p{
+	
+	/*margin-left:10px;
+	/*margin-left:0px;*/
+	float:left;
+
+}
+
+.details p#amountPerson {
+	/*margin:10px;*/
+	/*padding-left:10px;
+	margin-right:0px;
+	margin-left:-8px;*/
+	float:left;
+
+}
+
+
+.details select{
+	
+	/*margin-left:22.5px;*/
+	width:150px;
+	float:left;
+
+}
+
+.details select:first-child{
+	margin-left:-2px;
+	
+}
+
+
+.check{
+	/*background-color:#cc5;*/
+	clear:both;
+
+
+}
+
+
+
+.check #check-in{
+	/*background-color:#67c;*/
+}
+/*.check #check-in p{
+	margin:10px;
+	/*padding-left:10px;
+	float:left;
+		
+}
+
+.check .check-details{
+	margin-left:18px;
+
+}
+
+.check #check-in p:first-child{
+	float:none;
+		
+}
+
+.check #check-in select{
+	
+
+}
+
+*/
+
+#location-wrapper{
+	background-color:#2B1673;
+	float:left;
+	/*margin-left:9px;*/
+	/*width:494px;*/
+}
+
+
+#location-wrapper p{
+	
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:-240px;
+	/*margin-right:120px;*/
+	margin-top:35px;
+	/*color:#3cc;*/
+	font-size:10px;
+	color:#fff;
+
+}
+
+
+#location-wrapper input{
+	float:left;
+
+}
+
+
+
+#datein-wrapper{
+	background-color:#2B1673;
+	float:left;
+}
+
+
+#datein-wrapper p{
+	
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:-240px;
+	/*margin-right:120px;*/
+	margin-top:35px;
+	/*color:#3cc;*/
+	font-size:10px;
+	color:#fff;
+
+}
+
+
+#datein-wrapper input{
+	float:left;
+
+}
+
+
+#checkin-select{
+	width:90px;
+	/*margin-left:70px;*/
+
+
+}
+
+
+
+
+.check #check-out{
+	clear:both;
+
+}
+
+.check #check-out p, select{
+	/*margin:10px;*/
+}
+
+
+.comment{
+	clear:both;
+}
+
+
+.comment{
+	padding:10px;
+}
+
+.comment textarea{
+	float:left;
+	width:477px;
+	height:100px;
+	margin:0 55px 0 60px;
+}
+
+form#bookingform #bt{
+	width:100px;
+	margin:0 auto;
+	clear:both;
+
+}
+form#bookingform  #btBook{
+	width:100px;
+	margin:10px auto;
+
+}
+
+.hide-big{
+	display:none;
+}
+
+
+@media screen and (max-width: 600px){
+	form#bookingform{
+		width:350px;
+		margin:0px 0 0px 0px;
+		
+	
+	
+	}
+	
+	.hide-big{
+	display:block;
+
+}
+	/*#email-wrapper input{
+	width: 282px;
+	}*/
+	
+	
+	table{
+		margin-left:-10px;
+	
+	}
+	
+	table tr{
+		width:300px;
+		overflow:hidden;
+	}
+
+	
+	.hide-me{
+		display:none;
+	
+	}	
+	
+	
+/*.input-wrapper input{
+		width:235px;
+		padding:5px;
+	}*/
+	
+		
+	#lname-wrapper input, #fname-wrapper input{
+	width:150px;
+
+	}
+	
+	#fname-wrapper p,#lname-wrapper p{
+		width:150px;
+		padding-left:80px;
+	
+	}
+
+	#email-wrapper input {
+		width:311px;
+	}
+	
+	#email-wrapper{
+		width:323px;
+	
+	}
+	
+	#license-wrapper{
+		width:323px;
+	}
+	
+	#license-wrapper input{
+		width:311px;
+	
+	}
+	
+	.details select{
+		width:100px;
+	
+	}
+	
+	form#bookingform  #btBook{
+	width:80px;
+
+
+}
+	
+	#checkin-select{
+	width:70px;
+	/*margin-left:70px;*/
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+

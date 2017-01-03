@@ -1,0 +1,26 @@
+
+
+@font-face{
+	font-family:little-day;
+	src: url("Little days.ttf");
+
+}
+
+body{
+	/*font-family:little-day;*/
+	font-size:12px;
+	font-weight:bold;
+
+}
+
+.site-title{
+	font-size:1em;
+}
+
+a{
+color:#fff;
+text-decoration:none;
+
+}
+
+

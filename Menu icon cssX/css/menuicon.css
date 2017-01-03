@@ -1,0 +1,14 @@
+#cpBtn{
+	padding:2px 5px;
+}
+
+#cpBtn > div{
+	width: 20px;
+	height:4px;
+	background:#333;
+	margin:3px 0px;
+	border-radius:4px;
+
+
+
+}

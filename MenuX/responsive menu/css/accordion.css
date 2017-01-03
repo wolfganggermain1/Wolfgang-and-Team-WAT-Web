@@ -1,0 +1,86 @@
+body{
+
+
+}
+/*
+header{
+	background:#333;
+	color:#fff;
+	padding:20px;
+	position:relative;
+
+}
+
+
+main{
+	padding:20px;
+
+}
+
+*/
+
+
+.site-title{
+	font-size:1em;
+}
+
+a{
+color:#fff;
+text-decoration:none;
+
+}
+
+.accordion{
+	padding:0 20px;
+	font-size:12px;
+	/*background:#3CB470;*/*
+	opacity:0.6;
+	color: white;
+	max-height:0px;
+	overflow:hidden;
+	transition:all 0.2s ease;;
+}
+
+.accordion1{
+	padding:0 20px;
+	font-size:12px;
+	background:#fff;
+	max-height:0px;
+	overflow:hidden;
+	transition:all 0.2s ease;
+	background:#3CB470;
+	opacity:0.6;
+	color: white;
+}
+
+.accordion2{
+	padding:0 20px;
+	font-size:12px;
+	background:#fff;
+	max-height:0px;
+	overflow:hidden;
+	transition:all 0.2s ease;
+	background:#3CB470;
+	opacity:0.6;
+	color: white;
+}
+
+.accordion.open{
+	padding:40px;
+	max-height:1000px;
+
+}
+
+
+
+.accordion1.open{
+	padding:40px;
+	max-height:1000px;
+
+}
+
+.accordion2.open{
+	padding:40px;
+	max-height:1000px;
+
+}

@@ -1,0 +1,60 @@
+#contact-us{
+	/*clear:both;*/
+	margin-top:20px;
+	height:500px;
+	width:650px;
+	margin:150px auto;
+	color:#ff8a38;
+	/*background-color:#cc6;*/
+	
+
+}
+
+#contact-us h2{
+	text-align:center;
+	margin-top:-140px;
+	margin-bottom:140px;
+	
+
+}
+
+#hard_details{ /*This is causing an errr*/
+	width:300px;
+	/*margin-left:10%;*/
+	margin-top:10px;
+	float:left;
+	/*margin-right:10px;*/	
+	
+
+}
+
+#hard_details p{
+	margin:10px;
+
+}
+
+
+#separator{
+	float:left;
+	margin:0 22px;
+	width:3px;
+	height:320px;
+	background-color:orange;
+
+}
+
+
+#contact-form{
+	margin-top:20px;
+	/*margin-left:10px;*/
+	width:300px;
+	float:left;
+	height:400px;
+}
+
+#contact-form input {
+	margin-bottom:10px;
+	width:400px;
+
+
+}

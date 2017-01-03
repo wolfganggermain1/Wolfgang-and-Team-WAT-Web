@@ -1,0 +1,38 @@
+body {
+	padding:0;
+	margin:0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size:18px;
+}
+
+#nav{
+	
+	background-color:#222;//color of base background
+}
+
+#nav_wrapper{
+	width:960px;
+	margin:0 auto;   //alignment set here
+	text-align: left;
+
+}
+
+#nav ul{
+	
+	
+	list-style:none;//Removing styling from list
+	padding:0;
+	margin :0;
+	position:relative;//end
+	
+	
+	
+	
+	
+}
+
+#nav ul li{
+	display:inline-block; //display like menu
+	
+}

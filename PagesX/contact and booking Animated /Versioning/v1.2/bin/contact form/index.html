@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/contactform.css" />
+	<script type="text/javascript" src="js/trigger.js"></script>
+
+</head>
+<body>
+
+<form id="contactForm"action="https://formspree.io/your@email.com"
+      method="POST">
+	<div class="nameContact">
+		<p>Name : </p>
+		<input name="name" id="fnamein" required/>
+		<input name="surname" id="lnamein" />
+		<p id="fname">First-name</p>
+		<p id="lname">Last-name</p>
+
+	</div>
+	<div class="emailContact">
+		<p>Email : </p>
+		<input name="email" id="contactEmail" required/>
+		<p id="email">e.g. firstname@example.com</p>
+	</div>
+
+
+
+	<div class="messageContact" >
+		<p>Message</p>
+		<textarea name="message" required></textarea>
+
+	</div>
+	<div id="bt">
+		<input type="submit" value="Book" id="btBook"/>
+	</div>
+
+</form>
+
+
+</body>
+</html>

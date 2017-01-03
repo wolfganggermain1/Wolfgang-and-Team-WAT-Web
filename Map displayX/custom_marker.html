@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Markers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 600px;
+		width:600px;  
+		margin:10px auto;  
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+		    
+          center: new google.maps.LatLng(-4.332591, 55.746726),
+          mapTypeId: 'roadmap'
+        });
+
+        var iconBase = 'http://maps.google.com/mapfiles/kml/paddle/';
+        var icons = {
+          vallee: {
+            icon: iconBase + '1.png'
+          },
+          cotedor: {
+            icon: iconBase + '2.png'
+          },
+		fondferdinad: {
+            icon: iconBase + '3.png'
+          },
+          pearlfarm: {
+            icon: iconBase + '4.png'
+          },
+		   ansegeorgette: {
+            icon: iconBase + '6.png'
+          },
+		   anselazio: {
+            icon: iconBase + '5.png'
+          },
+		   souvenir: {
+            icon: iconBase + '7.png'
+          },
+			base: {
+            icon: iconBase + 'orange-stars.png'
+          }
+			
+			
+        };
+
+        function addMarker(feature) {
+          var marker = new google.maps.Marker({
+            position: feature.position,
+            icon: icons[feature.type].icon,
+            map: map
+          });
+        }
+
+        var features = [
+          {
+            
+			position: new google.maps.LatLng(-4.332591, 55.746726),//vallee-de-mai
+            type: 'vallee'  
+          }, {
+			position: new google.maps.LatLng(-4.317648, 55.748985),//cote d'or beach
+            type: 'cotedor'  
+                      }, {
+            position: new google.maps.LatLng(-4.294307, 55.701188),//anselazio
+            type: 'anselazio'
+          }, {
+            position: new google.maps.LatLng(-4.295420, 55.680932),//ansegeorgette
+            type: 'ansegeorgette'
+
+          },  {
+            
+			position: new google.maps.LatLng(-4.354071, 55.758319),//fond ferdinad  
+            type: 'fondferdinad'
+          },{
+            position: new google.maps.LatLng(-4.325772, 55.696263),//pearlfarm
+            type: 'pearlfarm'
+          },{
+            position: new google.maps.LatLng(-4.311104, 55.686220),//souvenir
+            type: 'souvenir'
+          },  {
+            position: new google.maps.LatLng(-4.325739, 55.760025),//cote d'or beach
+            type: 'base'
+          }
+        ];
+
+        for (var i = 0, feature; feature = features[i]; i++) {
+          addMarker(feature);
+        }
+      }
+		// In the following example, markers appear when the user clicks on the map.
+// Each marker is labeled with a single alphabetical character.
+
+
+
+		
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_XvAU0aTQrEJrDHqL3JR2YkDIPwSTils&callback=initMap">
+    </script>
+  </body>
+</html>

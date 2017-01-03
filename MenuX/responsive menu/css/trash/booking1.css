@@ -1,0 +1,210 @@
+form#bookingform{
+	width:720px;
+	color:blue;/*main colour change here*/
+	/*background-color:#e8e8e8;
+	/*text-align:center;*/
+
+}
+
+
+#vehicle_pic{
+	display:block;
+	margin: 0 auto;
+	width:360px;
+	
+}
+
+
+.name{
+	
+	
+		/*background-color:#ccc;*/
+}
+
+.name input{
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+
+
+.name p{
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:75px;
+	margin-right:120px;
+	margin-top:-10px;
+	/*color:#3cc;*/
+	font-size:10px;
+}
+
+.name p:first-child{
+	font-size:14px;
+	margin:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	/*float:none;*/
+
+}
+
+#fnamein:focus ~ p#fname{
+	color:#ccc;
+}
+
+#lnamein:focus ~ p#lname{
+	color:red;
+}
+
+.email{
+	/*background-color:#2cc;*/
+	clear:both;
+
+}
+
+.email input{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:500px;
+
+}
+
+
+.email p{
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:75px;
+	margin-right:120px;
+	margin-top:-10px;
+	/*color:#3cc;*/
+	font-size:10px;
+}
+
+.email p:first-child{
+	font-size:14px;
+	margin:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	/*float:none;*/
+
+}
+
+#bookingemail:focus ~ p#email{
+	color:red;
+}
+
+
+.details{
+	background-color:#c3c;
+	clear:both;
+	/*padding:10px;*/
+}
+
+.details p{
+	margin-left:10px;
+	/*margin-left:0px;*/
+	float:left;
+
+}
+
+.details p#amountPerson {
+	/*margin:10px;
+	margin-left:10px;*/
+	float:left;
+
+}
+
+
+.details select{
+	padding-left:9px;
+	float:left;
+
+}
+
+.details select:first-child{
+	margin-left:-2px;
+
+}
+
+
+.check{
+	/*background-color:#cc5;*/
+	clear:both;
+
+
+}
+
+
+
+
+.check #check-in{
+	/*background-color:#67c;*/
+}
+.check #check-in p, select{
+	margin:10px;
+	/*float:left;*/
+		
+}
+
+
+.check #check-in p:first-child{
+	float:none;
+		
+}
+
+.check #check-in#at{
+	/*text-align:center;*/
+	float:none;
+}
+
+
+.check #check-out{
+	clear:both;
+
+}
+
+.check #check-out p, select{
+	margin:10px;
+}
+
+
+.comment{
+	clear:both;
+}
+
+
+.comment{
+	padding:10px;
+}
+
+.comment textarea{
+	float:left;
+	width:510px;
+	height:100px;
+	margin:0 50px;
+}
+
+form#bookingform #bt{
+	width:100px;
+	margin:0 auto;
+	clear:both;
+
+}
+form#bookingform  #btBook{
+	width:100px;
+	margin:10px auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+

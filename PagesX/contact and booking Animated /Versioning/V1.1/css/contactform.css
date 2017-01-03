@@ -1,0 +1,129 @@
+form#contactForm{
+	width:650px;
+	color:blue;/*main colour change here*/
+	/*background-color:#e8e8e8;
+	/*text-align:center;*/
+
+}
+
+.nameContact{
+	
+	
+		/*background-color:#ccc;*/
+}
+
+.nameContact input{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:230px;
+
+}
+
+
+
+.nameContact p{
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:75px;
+	margin-right:120px;
+	margin-top:-10px;
+	/*color:#3cc;*/
+	font-size:10px;
+}
+
+.nameContact p:first-child{
+	font-size:14px;
+	margin:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	/*float:none;*/
+
+}
+
+#fnamein:focus ~ p#fname{
+	color:#ccc;
+}
+
+#lnamein:focus ~ p#lname{
+	color:red;
+}
+
+.emailContact{
+	/*background-color:#2cc;*/
+	clear:both;
+
+}
+
+.emailContact input{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:482px;
+
+}
+
+
+.emailContact p{
+	float:left;
+	/*background-color:#cc1;*/
+	margin-left:75px;
+	margin-right:120px;
+	margin-top:-10px;
+	/*color:#3cc;*/
+	font-size:10px;
+}
+
+.emailContact p:first-child{
+	font-size:14px;
+	margin:0;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:15px;
+	/*float:none;*/
+
+}
+
+#contactEmail:focus ~ p#email{
+	color:red;
+}
+
+
+
+.messageContact{
+	clear:both;
+}
+
+
+.messageContact{
+	padding:10px;
+}
+
+.messageContact textarea{
+	float:left;
+	width:482px;
+	height:100px;
+	margin-left:60px;
+}
+
+form#contactForm #bt{
+	width:100px;
+	margin:0 auto;
+	clear:both;
+
+}
+form#contactForm  #btBook{
+	width:100px;
+	margin:10px auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+

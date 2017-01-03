@@ -1,0 +1,6 @@
+#bubblebox{ width:100%; height:0px; padding:14px 0; margin: 170px auto;  }
+#bubbles{ width:auto; margin:0px auto; text-align:center; padding:14px;}
+#bubbles > div{ display:inline-block; width:10px; height:10px; margin:7px 7px 0px 10px; background:#ff8a3b; opacity:0.5; text-align:center; border-radius:100%; font-size:17px; text-decoration:none; transition: background 0.3s linear 0s; cursor:pointer;  margin-top:400px;}
+#bubblecontent{ position:absolute; width:100%; height:100%;/*600px;*/margin:-87px auto; padding-right:0px;  transition:opacity 0.3s linear 0s; font-family: Arial; }
+#bubblecontent > img{width:100%; height:90%; margin-top:-5px;}
+#bubblecontent > p{ font-size:50px; line-height:1.5em; margin-top:-10%; margin-left:20px; text-align:center; color:#fff;/*ff8a3b;*/ }
