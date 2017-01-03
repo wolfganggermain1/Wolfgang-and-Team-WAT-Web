@@ -1,0 +1,5 @@
+The form work by change the opacity and the z-index to give respective priorities to the needed div. than. 
+
+It start with the #main than changes to book or contact-us but IS NOT set to go back.
+
+Fully navigation back and forth
